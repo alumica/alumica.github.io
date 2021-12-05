@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+.container {
+    height: 900px;
+    width: 8%;
+    background-color: rgb(46, 46, 46);
+    margin: 20px;
+    border-radius: 20px;
+}
