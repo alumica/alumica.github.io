@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: rgb(24,58,54);
+    background: radial-gradient(circle, rgba(24,58,54,1) 0%, rgba(24,33,31,1) 80%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.__info .title, .profiles {
+    transition: 0.5s;
+    transition-delay: 0.4s;
+}
+
+.title {
+    height: 15vh;
+}
+
+.__info:hover .title{
+    transform: translate(0, -60px);
+    
+}
+
+.profiles {
+    text-align: center;
+    font-size: 40px;
+    margin-top: -40px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.profiles > a i {
+    color: #949494;
+    padding: 0 20px;
+   
+}
+
+.__info:hover .profiles {
+    visibility: visible;
+    opacity: 100;
+}
+
+.profiles > a i:hover {
+    color: #4feed1;
+    transition: 1s;
+}
