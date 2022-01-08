@@ -63,7 +63,7 @@ body {
 .key-container {
     display: flex;
     flex-wrap: wrap;
-    width: calc(60vw + 140px);
+    width: calc(60vw + 135px);
     padding: 15px;
     background-color: #a4a5a9;
     border-radius: 10px;
@@ -115,6 +115,6 @@ body {
     padding: 2vw calc(12.5vw +   3.75px);
 }
 
-.backspace, .backslash, .enter, .shiftR {
+.backspace, .backslash, .enter, .shiftR, .ctrlR {
     margin-right: 0;
 }
